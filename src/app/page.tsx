@@ -2,7 +2,6 @@
 import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 import { HeroImage } from "../components/HeroImage";
-import { StatsBar } from "../components/StatsBar";
 import { Navigation } from "../components/Navigation";
 import { MainContent } from "../components/MainContent";
 
