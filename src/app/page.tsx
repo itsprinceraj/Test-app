@@ -23,32 +23,32 @@ const useStoreData = () => {
         console.log(result.data);
       } catch (error) {
         console.error("Error fetching store data:", error);
-        setStoreData({
-          name: "TONY the TAILOR ",
-          tagline: "Quality Products for Kids",
-          logo: "https://cdn.hdsenterprise.com/store_logo/67446534-df4b-4c54-ba72-ccf1d82cea3d.jpg",
-          banner:
-            "https://cdn.hdsenterprise.com/store_banner/39f566b8-0bef-41d7-a11c-fb224cf5bbdc.jpg",
-          description: "Premium quality products",
-          caterTo: "Kids",
-          customerGender: "Female",
-          mode: "Online",
-          overallRating: 4,
-          address: {
-            details: "Kaithal, Haryana 136027, India",
-            city: "Kaithal",
-            state: "Haryana",
-            pincode: "136027",
-          },
-          owner: {
-            name: "anmolp",
-            mobileNumber: "918888888888",
-            whatsappNumber: "918888888888",
-            email: "anmol.await@gmail.com",
-          },
-          products: [],
-          collections: [],
-        });
+        // setStoreData({
+        //   name: "TONY the TAILOR ",
+        //   tagline: "Quality Products for Kids",
+        //   logo: "https://cdn.hdsenterprise.com/store_logo/67446534-df4b-4c54-ba72-ccf1d82cea3d.jpg",
+        //   banner:
+        //     "https://cdn.hdsenterprise.com/store_banner/39f566b8-0bef-41d7-a11c-fb224cf5bbdc.jpg",
+        //   description: "Premium quality products",
+        //   caterTo: "Kids",
+        //   customerGender: "Female",
+        //   mode: "Online",
+        //   overallRating: 4,
+        //   address: {
+        //     details: "Kaithal, Haryana 136027, India",
+        //     city: "Kaithal",
+        //     state: "Haryana",
+        //     pincode: "136027",
+        //   },
+        //   owner: {
+        //     name: "anmolp",
+        //     mobileNumber: "918888888888",
+        //     whatsappNumber: "918888888888",
+        //     email: "anmol.await@gmail.com",
+        //   },
+        //   products: [],
+        //   collections: [],
+        // });
       }
       setLoading(false);
     };
