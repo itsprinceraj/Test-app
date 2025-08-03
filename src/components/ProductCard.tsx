@@ -1,3 +1,6 @@
+"use client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { Heart } from "lucide-react";
 
 export const ProductCard = ({ product }) => (

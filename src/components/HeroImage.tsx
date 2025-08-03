@@ -1,4 +1,8 @@
-export const HeroImage = ({ storeData }) => (
+"use client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
+import { StoreData } from "./Header";
+export const HeroImage = ({ storeData }: { storeData: StoreData | null }) => (
   <div className="relative h-80 bg-gradient-to-r from-red-900 via-red-700 to-red-600 overflow-hidden">
     {storeData?.banner ? (
       <>

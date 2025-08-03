@@ -1,3 +1,6 @@
+"use client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export const Navigation = ({ activeTab, setActiveTab }) => {
     const tabs = ["Collections", "Products", "Gallery", "Reviews", "Location"];
   

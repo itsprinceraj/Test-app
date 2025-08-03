@@ -1,3 +1,6 @@
+"use client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import {
   Facebook,
   Instagram,
@@ -6,8 +9,9 @@ import {
   MessageCircle,
   Phone,
 } from "lucide-react";
+import { StoreData } from "./Header";
 
-export const Sidebar = ({ storeData }) => (
+export const Sidebar = ({ storeData }: {storeData: StoreData | null}) => (
   <div className="space-y-6">
     {/* Store Info Card */}
     <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
